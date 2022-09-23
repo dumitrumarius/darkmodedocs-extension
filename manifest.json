@@ -1,5 +1,5 @@
 {
-    "name" : "DarkerDocs",
+    "name" : "DarkModeDocs",
     "description" : "Google GCP Documentation turned dark.",
     "version" : "0.1",
     "manifest_version" : 3,
@@ -8,8 +8,7 @@
         "matches": [
             "*://cloud.google.com/*"
         ],
-        "css": ["darkmode.css"],
-        "run_at": "document_start"
+        "js": ["darkmode_script.js"]
     }
     ],
     "host_permissions": [
